@@ -86,27 +86,27 @@ form button {
 form button:hover {
     background: #34495e;
 }
-footer {
-    background-color: #333; 
-    color: white;           
-    text-align: center;     
-    padding: 2rem 0;        
-    margin-top: 2rem;       
-}
 
-.social-links {
-    margin-bottom: 1rem;
-}
-
-.social-links a {
-    color: #fff;
+nav a {
     text-decoration: none;
-    margin: 0 15px;         
-    font-weight: bold;
-    font-size: 1.1rem;
-    transition: color 0.3s;
+    color: #2c3e50;
+    margin-right: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
-.social-links a:hover {
-    color: #3498db;         
+nav a:hover {
+    color: #1abc9c;
+}
+
+form input:hover,
+form textarea:hover {
+    border-color: #1abc9c;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #1abc9c;
+    box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
 }
