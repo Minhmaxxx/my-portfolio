@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body>>
     <header>
         <h1>My Portfolio</h1>
         <nav>
@@ -22,15 +22,29 @@
     </section>
     <section id="projects">
         <h2>My Projects</h2>
-        <ul>
-            <li>Project 1: Portfolio Website</li>
-            <li>Project 2: Todo App</li>
-            <li>Project 3: Weather Dashboard</li>
-        </ul>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=Portfolio+Website" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>A responsive portfolio website showcasing my projects and skills using HTML5, CSS3, and JavaScript. Features modern design with smooth animations and contact form integration.</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=Todo+App" alt="Todo App">
+                <h3>Todo App</h3>
+                <p>A feature-rich todo application built with React. Includes task management, filtering, and local storage persistence. Users can add, edit, delete, and mark tasks as complete.</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=Weather+Dashboard" alt="Weather Dashboard">
+                <h3>Weather Dashboard</h3>
+                <p>An interactive weather dashboard powered by OpenWeather API. Displays current weather, 5-day forecast, and allows users to search for any city worldwide with real-time data updates.</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200?text=E-Commerce+Platform" alt="E-Commerce Platform">
+                <h3>E-Commerce Platform</h3>
+                <p>A full-stack e-commerce platform developed with Node.js and MongoDB. Features product catalog, shopping cart, payment integration, and admin dashboard for inventory management.</p>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-    </footer>
     <section id="contact">
         <h2>Contact Me</h2>
         <form>
@@ -49,5 +63,13 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/YOUR_ID" target="_blank">Facebook</a>
+            <a href="https://linkedin.com/in/YOUR_ID" target="_blank">LinkedIn</a>
+            <a href="https://github.com/YOUR_ID" target="_blank">GitHub</a>
+        </div>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
